@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllAboutIt | Blog</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0d0d1a, #1a1a2f);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    header h1 {
+      color: #00e0ff;
+      font-size: 1.8em;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00e0ff;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #ffcc70;
+      margin-bottom: 40px;
+      font-size: 2em;
+    }
+    .blogs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      background: rgba(255,255,255,0.15);
+    }
+    .card h3 {
+      color: #00e0ff;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 0.95em;
+      margin: 10px 0 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #00e0ff;
+      color: #0d0d1a;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffcc70;
+      color: #0d0d1a;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+      color: #aaa;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #00e0ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AllAboutIt</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Explore My Latest Blogs 📰</h2>
+
+    <div class="blogs">
+      <div class="card">
+        <h3>💻 Technology</h3>
+        <p>Discover amazing tech updates, gadgets, and digital skills for the modern world.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="card">
+        <h3>🌍 Lifestyle</h3>
+        <p>Simple habits, motivation, and inspiration for a balanced, happy life.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="card">
+        <h3>✈️ Travel</h3>
+        <p>Explore new places, adventures, and cultural experiences around the world.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="card">
+        <h3>💪 Health</h3>
+        <p>Stay fit and confident — discover easy health and fitness tips anyone can follow.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="card">
+        <h3>💰 Finance</h3>
+        <p>Learn money management, saving tricks, and smart ways to invest early.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <p>📧 Contact: <a href="mailto:bhatiyamahendra2009@gmail.com">bhatiyamahendra2009@gmail.com</a></p>
+    <p>©️ 2025 Mahendra Bhatiya | AllAboutIt</p>
+  </footer>
+</body>
+</html>
