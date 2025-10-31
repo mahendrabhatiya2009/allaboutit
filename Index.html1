@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllAboutIt | Mahendra Bhatiya</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0d0d1a, #1a1a2f);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    header h1 {
+      color: #00e0ff;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #00e0ff;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(0, 224, 255, 0.5);
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-top: 20px;
+      color: #ffcc70;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 15px auto;
+      line-height: 1.7;
+      font-size: 1.1em;
+      color: #ddd;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 50px;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 30px 20px;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.15);
+    }
+    .card h3 {
+      color: #00e0ff;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    footer a {
+      color: #00e0ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AllAboutIt</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#blogs">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://raw.githubusercontent.com/mahendrabhatiya2009/allaboutit/main/IMG_0757.jpeg" alt="Mahendra Bhatiya Photo">
+    <h2>Hi, I'm Mahendra Bhatiya 👋</h2>
+    <p>
+      A 10th-grade student with big dreams and endless curiosity.  
+      I explore <strong>technology, lifestyle, travel, health, and finance</strong> —  
+      sharing what I learn along the way through <strong>AllAboutIt</strong>.  
+      My motto: <em>“Dream big, stay grounded.”</em>
+    </p>
+  </section>
+
+  <section id="blogs" class="categories">
+    <div class="card">
+      <h3>💻 Technology</h3>
+      <p>Latest updates, gadgets, and digital insights.</p>
+    </div>
+    <div class="card">
+      <h3>🌍 Lifestyle</h3>
+      <p>Smart habits and everyday inspiration for better living.</p>
+    </div>
+    <div class="card">
+      <h3>✈️ Travel</h3>
+      <p>Discover new places and experiences around the world.</p>
+    </div>
+    <div class="card">
+      <h3>💪 Health</h3>
+      <p>Simple tips to keep your mind and body strong.</p>
+    </div>
+    <div class="card">
+      <h3>💰 Finance</h3>
+      <p>Learn to manage money, save smart, and grow wealth.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>📧 Contact: <a href="mailto:bhatiyamahendra2009@gmail.com">bhatiyamahendra2009@gmail.com</a></p>
+    <p>©️ 2025 Mahendra Bhatiya | AllAboutIt</p>
+  </footer>
+</body>
+</html>
