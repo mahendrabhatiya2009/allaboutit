@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Mahendra Bhatiya</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #232946);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #00e0ff;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(0, 224, 255, 0.5);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #00e0ff;
+      margin-bottom: 15px;
+    }
+    h2 {
+      color: #ffcc70;
+      margin-top: 40px;
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.7;
+      color: #f0f0f0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+    li {
+      background: rgba(255, 255, 255, 0.15);
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 12px;
+      font-size: 1.05em;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      background: #00e0ff;
+      color: #1e1e2f;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 25px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .back-btn:hover {
+      background: #ffcc70;
+      color: #000;
+      transform: scale(1.05);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- ✅ Your photo -->
+    <img src="https://raw.githubusercontent.com/mahendrabhatiya2009/allaboutit/main/IMG_0757.jpeg" alt="Mahendra Bhatiya Photo">
+
+    <h1>🌟 About Me</h1>
+    <p>
+      Hey there! I’m <strong>Mahendra Bhatiya</strong>, a 10th-grade student with big dreams and endless curiosity. ✨  
+      I love exploring <strong>technology, travel, photography, and creativity</strong> — because every experience teaches me something new about life.  
+      I believe in <strong>working hard, staying humble, and shining brighter every day. 🌞</strong>  
+      My goal? To build a life full of <strong>learning, success, and inspiration</strong> — and to make a positive mark wherever I go. 🚀
+    </p>
+
+    <h2>✨ Taglines I Live By</h2>
+    <ul>
+      <li>Dream big, stay grounded.</li>
+      <li>Learning today, leading tomorrow.</li>
+      <li>Built from curiosity, powered by passion.</li>
+      <li>Creating my own path, one step at a time.</li>
+      <li>Young mind. Big dreams. Bold moves.</li>
+      <li>Making ideas come alive.</li>
+      <li>Chasing goals, not comfort.</li>
+      <li>Turning dreams into plans.</li>
+    </ul>
+
+    <a href="index.html" class="back-btn">⬅ Back to Home</a>
+
+    <footer>©️ 2025 Mahendra Bhatiya | AllAboutIt</footer>
+  </div>
+</body>
+</html>
