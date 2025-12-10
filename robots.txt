@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mahendrabhatiya2009.github.io/allaboutit/sitemap.xml
